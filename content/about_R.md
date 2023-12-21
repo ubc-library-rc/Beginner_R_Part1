@@ -81,7 +81,7 @@ Once you have set your working directory manually like this, you can copy/paste 
 
 ```{r}
 ## set working directory
-setwd("C:/Users/siobh/OneDrive/Desktop")
+setwd("C:/Desktop")
 # you need to put your own path inside the setwd() backets. 
 
 # MAC USERS!! you will have a ~ instead of a C:
