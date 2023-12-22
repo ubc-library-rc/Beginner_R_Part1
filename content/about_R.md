@@ -2,7 +2,6 @@
 layout: default
 title: How does R (and code in general) work?
 nav_order: 8
-parent: Workshop Content
 has_toc: false
 ---
 
