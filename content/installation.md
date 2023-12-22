@@ -2,7 +2,6 @@
 layout: default
 title: Instaling R and R Studio
 nav_order: 5
-parent: Workshop Content
 has_toc: false
 ---
 
