@@ -90,6 +90,8 @@ setwd("C:/Desktop")
 
 Now that R knows where to look for files, you can read them into R.
 
+We will use the .csv file linke dhere for the workshop https://github.com/ubc-library-rc/Beginner_R_Part1/blob/main/kelp_dataset.csv 
+
 R can read in a bunch of different files types. some like .csv and .RDS are readable from R without loading packages first. Other files types, like .xlsx and .sav need you to load packages before you can read in the files.
 
 You can do this by typing the correct read file command into your your script or by clicking the import dataset button (image below). If you use the import dataset button, you should copy paste the output from the console in your script so you can just run the script without manually selecting the data every time.
