@@ -31,7 +31,7 @@ R needs some set up and some additional information before it can be expected to
 
     **Every time you want to us**e the package, you need to load it into R using the `library()` command. The `library()` command should be added to your R Script.
 
-```r
+``` r
 
 # install package 
 install.packages("tidyverse")
@@ -54,7 +54,7 @@ What if you search for a package name and it's not there? Check the spelling and
 
     Putting 1 or more `#` in front of text does the same thing.
 
-```r
+``` r
 # won't run
 ## same thing as above
 ############# still the same thing as above 
@@ -62,7 +62,7 @@ What if you search for a package name and it's not there? Check the spelling and
 
 However, if you add at least four `#` at the end, you can create code sections. This is very helpful because it lets you collapse entire chunks fo code and makes it less overwhelming once your script get very long. The number of \# at the start does not matter and it's okay to have more than four \# at the end. I like to put five \# on each side of the title for absolutely no reason except I think it looks pretty.
 
-```r
+``` r
 #### section 1 name ####
 # section 2 name ####
 ## section 3 name ####
@@ -78,7 +78,7 @@ You can set your working directory manually by clicking Session\> Set Working Di
 
 Once you have set your working directory manually like this, you can copy/paste the output from the console and add it to your script.
 
-```r
+``` r
 ## set working directory
 setwd("C:/Desktop")
 # you need to put your own path inside the setwd() backets. 
@@ -90,7 +90,9 @@ setwd("C:/Desktop")
 
 Now that R knows where to look for files, you can read them into R.
 
-We will use the .csv file linke dhere for the workshop https://github.com/ubc-library-rc/Beginner_R_Part1/blob/main/kelp_dataset.csv 
+We will use the .csv file linked here for the workshop <https://github.com/ubc-library-rc/Beginner_R_Part1/blob/main/kelp_dataset.csv> Once you get to the webpage, click on the download button (underlined in orange in the image below) and download the file.
+
+![](images/csv_dowload_button.png)
 
 R can read in a bunch of different files types. some like .csv and .RDS are readable from R without loading packages first. Other files types, like .xlsx and .sav need you to load packages before you can read in the files.
 
@@ -98,7 +100,7 @@ You can do this by typing the correct read file command into your your script or
 
 ![](images/read%20in%20data.png)
 
-```r
+``` r
 # read in the .csv file
 kelp_dataset=read.csv("kelp_dataset.csv")
 # note, + and <- are the same in this case. 
@@ -110,7 +112,7 @@ Now we see that the dataset is in our Environment, so it's loaded properly.
 
 Now, we want to look at our data. We can do this with the `View()` function
 
-```r
+``` r
 # look at the data
 View(kelp_dataset)
 ```
@@ -121,7 +123,8 @@ View(kelp_dataset)
 
 You can also use the `summary()` function to get an overview of your data
 
-```r
+``` r
+# see summary (mean, min, max, and other) of all your variables 
 summary(kelp_dataset)
 ```
 
@@ -143,7 +146,7 @@ Today, we will go over some of the built in functions that R has for simple data
 
 Run the following line and look for the output in the console
 
-```r
+``` r
 mean(kelp_dataset$KelpWetWeight)
 # there is also sum(), median(), min(), max(), and a bunch of other similar functions
 ```
@@ -152,12 +155,12 @@ mean(kelp_dataset$KelpWetWeight)
 
 Lets see if thalus length and weight are correlated. The output for this will also be int he console.
 
-```r
+``` r
 cor.test(kelp_dataset$KelpWetWeight, kelp_dataset$KelpThallusLength)
 ```
 
 Lets plot the data we just ran the correlation test on. This output will be in the plot section of RStudio.
 
-```r
+``` r
 plot(kelp_dataset$KelpWetWeight, kelp_dataset$KelpThallusLength)
 ```
