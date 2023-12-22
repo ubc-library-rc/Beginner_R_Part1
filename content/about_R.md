@@ -19,20 +19,19 @@ has_toc: false
 
     3.  Data analysis.
 
-### Set up the R session
+## Set up the R session
 
 R needs some set up and some additional information before it can be expected to interact with data that it needs to analyze.
 
-##### Set up part 1: Load in packages
+### Set up part 1: Load in packages
 
 -   Packages are add ons to R that allow you to use a single command to perform an action, rather than typing a bunch of code to do things. Think of them like browser extensions. You don't need browser extensions for your browser to work, but the customization packages offer make the experience of going online much better.
 
     Packages are **installed** the first time you use them with the `install.packages()` command. This only needs to be run once per package on your computer.
 
-    **Every time you want to us**e the package, you need to load it into R using the `library()` command. The `library()` command should be added to your R Script.
+    **Every time you want to use** the package, you need to load it into R using the `library()` command. The `library()` command should be added to your R Script.
 
 ``` r
-
 # install package 
 install.packages("tidyverse")
 
@@ -48,7 +47,7 @@ What if you search for a package name and it's not there? Check the spelling and
 
 ![](images/packages.png)
 
-##### Aside: What are #?
+### Aside: What are #?
 
 -   A `#` is the R symbol for a comment. Commenting out a line of code makes it not run. This is useful to make notes about why you did something (organization) or just removing part of your existing code for troubleshooting purposes.
 
@@ -68,7 +67,7 @@ However, if you add at least four `#` at the end, you can create code sections. 
 ## section 3 name ####
 ```
 
-##### Set up part 2: Tell R where to get data
+### Set up part 2: Tell R where to get data
 
 Now that R has all the packages we need loaded, we need to tell R where to look for data on your computer. Where R looks for data is called the working directory and can be customized for each RScript you make.
 
@@ -86,7 +85,7 @@ setwd("C:/Desktop")
 # MAC USERS!! you will have a ~ instead of a C:
 ```
 
-##### Set up part 3: Load in your data
+### Set up part 3: Load in your data
 
 Now that R knows where to look for files, you can read them into R.
 
@@ -128,21 +127,20 @@ You can also use the `summary()` function to get an overview of your data
 summary(kelp_dataset)
 ```
 
-### 
 
-### Format your data
+## Format your data
 
 Data that are not formatted properly are the source of many error messages in R. We are not going to go over data formatting today because we have many other workshops to do that.
 
 Overall, in this section, you would clean up your data by removing parts of it you don;t want to analyze, change the variable types, [join many datasets together](https://ubc-library-rc.github.io/relational-data-r/), or [manipulate your data](https://github.com/ubc-library-rc/intro_to_tidyverse) in various other ways.
 
-### Data Analysis
+## Data Analysis
 
 This section is really what you want to be doing when you open up R and we are finally there! The analysis you do for your own work will likely require the installation of new packages and you will have some troubleshooting to do.
 
 Today, we will go over some of the built in functions that R has for simple data analysis.
 
-##### Calculate the mean
+### Calculate the mean
 
 Run the following line and look for the output in the console
 
@@ -151,7 +149,7 @@ mean(kelp_dataset$KelpWetWeight)
 # there is also sum(), median(), min(), max(), and a bunch of other similar functions
 ```
 
-##### Run a correlation test
+### Run a correlation test
 
 Lets see if thalus length and weight are correlated. The output for this will also be int he console.
 
