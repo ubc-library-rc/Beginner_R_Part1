@@ -43,7 +43,7 @@ plot(kelp_dataset$KelpWetWeight, kelp_dataset$KelpThallusLength)
 
 ### Extra activities
 
-If you want to practice R some more, come to the Beginner R part 2!
+If you want to practice R some more, come to the Beginner R part 2 <https://ubc-library-rc.github.io/Beginner_R_Part2/>!
 
 In the mean time, here are some tutorials that go over what we did today and start going over some material we will cover in part 2! These tutorials uses datasets that are built into R, so you do not need to set your working directory or read in files.
 
@@ -51,7 +51,7 @@ I have added a difficulty score next to the links to help you figure out which o
 
 **Difficulty 1/3**
 
-Beginner R part 2 link (if you can't make the workshop, go over this before going over the other links)
+<https://ubc-library-rc.github.io/Beginner_R_Part2/> Beginner R part 2 link (if you can't make the workshop, go over this before going over the other links)
 
 <https://ubc-library-rc.github.io/IntroR/> (previous UBC RC intro to R)
 
