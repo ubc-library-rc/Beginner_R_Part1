@@ -7,17 +7,17 @@ has_toc: false
 
 ### The R coding language is similar to English
 
--   Code is read from left to right and from the top of the script (line 1) to the bottom of the script.
+Code is read from left to right and from the top of the script (line 1) to the bottom of the script.
 
-    -   This means, that your code needs to be written in the correct order to be able to run it without errors
+This means, that your code needs to be written in the correct order to be able to run it without errors
 
--   Just like a book or lab protocol, there is a method to organizing your code. We outline these parts below and then go into what each of these elements are in the following sections.
+Just like a book or lab protocol, there is a method to organizing your code. We outline these parts below and then go into what each of these elements are in the following sections.
 
-    1.  Set up your R session
+1.  Set up your R session
 
-    2.  Formatting your data
+2.  Formatting your data
 
-    3.  Data analysis.
+3.  Data analysis.
 
 ## Set up the R session
 
@@ -25,11 +25,11 @@ R needs some set up and some additional information before it can be expected to
 
 ### Set up part 1: Load in packages
 
--   Packages are add ons to R that allow you to use a single command to perform an action, rather than typing a bunch of code to do things. Think of them like browser extensions. You don't need browser extensions for your browser to work, but the customization packages offer make the experience of going online much better.
+Packages are add-ons to R that allow you to use a single command to perform an action, rather than typing a bunch of code. Think of packages like browser extensions. You don't need browser extensions for your browser to work, but the customization packages offer make the experience of going online much better.
 
-    Packages are **installed** the first time you use them with the `install.packages()` command. This only needs to be run once per package on your computer.
+Packages are **installed** the first time you use them with the `install.packages()` command. This only needs to be run once per package on your computer.
 
-    **Every time you want to use** the package, you need to load it into R using the `library()` command. The `library()` command should be added to your R Script.
+**Every time you want to use** the package, you need to load it into R using the `library()` command. The `library()` command should be added to your R Script.
 
 ``` r
 # install package 
@@ -49,9 +49,9 @@ What if you search for a package name and it's not there? Check the spelling and
 
 ### Aside: What are #?
 
--   A `#` is the R symbol for a comment. Commenting out a line of code makes it not run. This is useful to make notes about why you did something (organization) or just removing part of your existing code for troubleshooting purposes.
+A `#` is the R symbol for a comment. Commenting out a line of code makes it not run. This is useful to make notes about why you did something (organization) or just removing part of your existing code for troubleshooting purposes.
 
-    Putting 1 or more `#` in front of text does the same thing.
+Putting 1 or more `#` in front of text does the same thing.
 
 ``` r
 # won't run
@@ -89,7 +89,7 @@ setwd("C:/Desktop")
 
 Now that R knows where to look for files, you can read them into R.
 
-We will use the .csv file linked here for the workshop <https://github.com/ubc-library-rc/Beginner_R_Part1/blob/main/kelp_dataset.csv> Once you get to the webpage, click on the download button (underlined in orange in the image below) and download the file.
+We will use the .csv file linked here for the workshop <https://github.com/ubc-library-rc/Beginner_R_Part1/blob/main/kelp_dataset.csv> Once you get to the webpage, click on the download button (underlined in orange in the top right of the image below) to download the file.
 
 ![](images/csv_dowload_button.png)
 
@@ -126,7 +126,6 @@ You can also use the `summary()` function to get an overview of your data
 # see summary (mean, min, max, and other) of all your variables 
 summary(kelp_dataset)
 ```
-
 
 ## Format your data
 

@@ -8,11 +8,17 @@ nav_order: 1
 
 If you have never opened R, do not know what R packages are, do not know how to read files into R, this workshop is for you!
 
-If your expertise is a bit higher than what is described above but you are still very new to R, check out the [Beginner R Part 2 workshop](https://github.com/ubc-library-rc/Beginner_R_Part2) we will be offering soon!
+If your expertise is a bit higher than what is described above but you are still very new to R, check out the [Beginner R Part 2 workshop](https://ubc-library-rc.github.io/Beginner_R_Part2/) we will be offering soon!
 
 ## Learning objectives
 
-At the end of this workshop, you will be able to: 1. Know what R and RStudio are 2. Know what the parts of R Studio are called 3. Know how to organize R code in an R script
+At the end of this workshop, you will be able to:
+
+1\. Know what R and RStudio are
+
+2\. Know what the parts of R Studio are called
+
+3\. Know how to organize R code in an R script
 
 ## Schedule
 
@@ -23,4 +29,4 @@ At the end of this workshop, you will be able to: 1. Know what R and RStudio are
 | 0:50 \| First try at data analysis \|
 | 1:00 \| Wrap-up and Discussion \|
 
-## 
+
