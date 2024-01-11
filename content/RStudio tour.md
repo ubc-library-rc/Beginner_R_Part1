@@ -39,7 +39,7 @@ On the bottom left is the **Console**. It is where you can type in R commands an
 ### Top right pane
 
 The top right pane includes tabs such as Environment and History.
-<tab>The **Environment** tab allows you to see what objects are in the workspace.
+The **Environment** tab allows you to see what objects are in the workspace.
 The **History** tab allows you to see the commands that you have entered.
 
 ### Top left pane
