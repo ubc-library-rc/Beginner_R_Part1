@@ -27,6 +27,7 @@ Located at the very top of your screen. This is where to go to format RStudio an
 
 Rscripts and other Rfiles types, such as RMarkdown are documents where you can write code and save it for later. basically, the R equivalent of a word document.
 
+
 ### Source editor
 
 On the top left is the **Source Editor**. If it is your first time opening RStudio, the source editor may not show up. You can click from the toolbar 'File - New File - R Script' and then a script file called Untitled1 will show up there. Writing your code in the script is recommended if you want to save your work for future use.
@@ -39,19 +40,19 @@ On the bottom left is the **Console**. It is where you can type in R commands an
 
 The top right pane includes tabs such as Environment and History.
 
-<tab><tab>- The **Environment** tab allows you to see what objects are in the workspace.
+- The **Environment** tab allows you to see what objects are in the workspace.
 
-<tab><tab>- The **History** tab allows you to see the commands that you have entered.
+- The **History** tab allows you to see the commands that you have entered.
 
 ### Top left pane
 
 The bottom right pane shows tabs such as Plots, Packages and Help.
 
-<tab><tab>- **Plot** is where you can view your plot.
+- **Plot** is where you can view your plot.
 
-<tab><tab>- **Packages** is where you can view the list of all the installed packages.
+- **Packages** is where you can view the list of all the installed packages.
 
-<tab><tab>- In **Help**, you can can browse the built-in help system of R, which is super helpful.
+- In **Help**, you can can browse the built-in help system of R, which is super helpful.
 
 If you have questions after the workshop, a cheat sheet is available for quick referral: [RStudio IDE Cheat Sheet](https://posit.co/wp-content/uploads/2022/10/rstudio-ide-1.pdf). The cheat sheet is also accessible within RStudio through the toolbar 'Help - Cheat Sheets - RStudio IDE Cheat Sheet'.
 
