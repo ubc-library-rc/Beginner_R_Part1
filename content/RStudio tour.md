@@ -39,15 +39,20 @@ On the bottom left is the **Console**. It is where you can type in R commands an
 ### Top right pane
 
 The top right pane includes tabs such as Environment and History.
-The **History** tab allows you to see the commands that you have entered.
+<ul>
+  <div style="padding:20px;">
+  <li>The <strong>History</strong> tab allows you to see the commands that you have entered.</li>
+  <li>The <strong>Environement</strong> tab allows you to see what data, vectors, and other values R can access. When you read in data, look here to make sure you actually read your data into RStudio.</li>
+  </div>
+</ul>
 
 ### Top left pane
 
 The bottom right pane shows tabs such as Plots, Packages and Help.
 <ul>
-<li>**Plot** is where you can view your plot.</li>
-<li>**Packages** is where you can view the list of all the installed packages.</li>
-<li>In **Help**, you can can browse the built-in help system of R, which is super helpful. </li>
+<li><strong>Plot</strong> is where you can view your plot.</li>
+<li><strong>Packages</strong> is where you can view the list of all the installed packages.</li>
+<li>In <strong>Help</strong>, you can can browse the built-in help system of R, which is super helpful. </li>
 </ul>
 
 
