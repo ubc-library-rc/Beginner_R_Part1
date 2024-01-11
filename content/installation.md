@@ -19,7 +19,7 @@ Go to <https://posit.co/download/rstudio-desktop/> and scroll to find the right 
 
 ### 3. Format R
 
-Open *tools \> Global Options* and then you will see the pop up below. In the *General* tab, select the "Never" option for Save workspace to .RData on exit.
+In <strong>RStudio</strong> Open *tools \> Global Options* and then you will see the pop up below. In the *General* tab, select the "Never" option for Save workspace to .RData on exit.
 
 ![](images/never_save.png)
 
