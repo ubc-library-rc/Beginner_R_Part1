@@ -37,14 +37,14 @@ On the top left is the **Source Editor**. If it is your first time opening RStud
 On the bottom left is the **Console**. It is where you can type in R commands and see the outputs. Writing your code in the console is recommended for quick exploration.
 
 ### Top right pane
+<ol>
+ <li>The top right pane includes tabs such as Environment and History.</li>
+ <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+  <li style="margin-left:2em">The <strong>History</strong> tab allows you to see the commands that you have entered.</li>
+  <li style="margin-left:2em; padding-bottom: 0;">The <strong>Environement</strong> tab allows you to see what data, vectors, and other values R can access. When you read in data, look here to make sure you actually read your data into RStudio.</li>
+ </ol>
+</ol>
 
-The top right pane includes tabs such as Environment and History.
-<ul>
-  <div style="padding:20px;">
-  <li>The <strong>History</strong> tab allows you to see the commands that you have entered.</li>
-  <li>The <strong>Environement</strong> tab allows you to see what data, vectors, and other values R can access. When you read in data, look here to make sure you actually read your data into RStudio.</li>
-  </div>
-</ul>
 
 ### Top left pane
 
