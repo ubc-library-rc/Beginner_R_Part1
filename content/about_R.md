@@ -8,6 +8,9 @@ has_toc: false
 ### The R coding language is similar to English
 
 Code is read from left to right and from the top of the script (line 1) to the bottom of the script.
+<p style="margin-left: 25px;">
+<i>Note</i>: An R script is a document where you write code that you want saved. This is where you should do your data analusis. When people share R code, they send each other R script files. 
+</p>
 
 This means, that your code needs to be written in the correct order to be able to run it without errors
 
