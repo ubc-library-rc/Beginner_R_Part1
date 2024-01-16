@@ -38,23 +38,25 @@ On the bottom left is the **Console**. It is where you can type in R commands an
 
 ### Top right pane
 <ol>
- <li>The top right pane includes tabs such as Environment and History.</li>
- <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
-  <li style="margin-left:2em">The <strong>History</strong> tab allows you to see the commands that you have entered.</li>
-  <li style="margin-left:2em; padding-bottom: 0;">The <strong>Environement</strong> tab allows you to see what data, vectors, and other values R can access. When you read in data, look here to make sure you actually read your data into RStudio.</li>
- </ol>
+ <li>The top right pane includes tabs such as Environment and History.
+   <ol>
+     <li style="margin-left:2em">The <strong>History</strong> tab allows you to see the commands that you have entered.</li>
+     <li style="margin-left:2em; padding-bottom: 0;">The <strong>Environement</strong> tab allows you to see what data, vectors, and other values R can access. When you read in data, look here to make sure you actually read your data into RStudio.</li>
+   </ol>
+ </li>
 </ol>
 
 
 ### Top left pane
 
 <ol>
- <li>The bottom right pane shows tabs such as Plots, Packages and Help.</li>
- <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
-  <li style="margin-left:2em"><strong>Plot</strong> is where you can view your plot.</li>
-  <li style="margin-left:2em"><strong>Packages</strong> is where you can view the list of all the installed packages.</li>
-  <li style="margin-left:2em; padding-bottom: 0;">In <strong>Help</strong>, you can can browse the built-in help system of R, which is super helpful. </li>
- </ol>
+ <li>The bottom right pane shows tabs such as Plots, Packages and Help.
+   <ol>
+     <li style="margin-left:2em"><strong>Plot</strong> is where you can view your plot.</li>
+     <li style="margin-left:2em"><strong>Packages</strong> is where you can view the list of all the installed packages.</li>
+     <li style="margin-left:2em; padding-bottom: 0;">In <strong>Help</strong>, you can can browse the built-in help system of R, which is super helpful. </li>
+   </ol>
+ </li>
 </ol>
 
 
