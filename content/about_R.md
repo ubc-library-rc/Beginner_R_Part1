@@ -152,7 +152,7 @@ mean(kelp_dataset$KelpWetWeight)
 # there is also sum(), median(), min(), max(), and a bunch of other similar functions
 # here is a webpage with all the base R functions https://rdrr.io/r/  
 ```
-Right above, we put a URL link in a comment. This is a very good habit to have because you might find a page that has answers you are looking for or explains why you did something a particular way. The best spot to store those resources is right next to the relevant code! 
+Right above, we put a URL link in a comment. This is a very good habit to have, because you might find a webpage that has answers you are looking for or explains why you did something a particular way. The best spot to store those resources is right next to the relevant code! 
 
 ### Run a correlation test
 
