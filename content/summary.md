@@ -31,7 +31,7 @@ summary(kelp_dataset)
 # data looks goods for today. We did not do this but see other workshops!! 
 
 #### DATA ANALYSIS ####
-# calculate the mean wet weight of allt he kelps in the kelp_dataset 
+# calculate the mean wet weight of all the kelps in the kelp_dataset 
 mean(kelp_dataset$KelpWetWeight)
 
 # run a corelation test between kelp weight and length 
