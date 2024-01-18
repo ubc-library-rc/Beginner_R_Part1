@@ -30,9 +30,9 @@ R needs some set up and some additional information before it can be expected to
 
 Packages are add-ons to R that allow you to use a single command to perform an action, rather than typing a bunch of code. Think of packages like browser extensions. You don't need browser extensions for your browser to work, but the customization packages offer make the experience of going online much better.
 
-Packages are **installed** the first time you use them with the `install.packages()` command. This only needs to be run once per package on your computer.
+Packages are **installed the first time** you use them with the `install.packages()` command. This only needs to be run once per package on your computer.
 
-**Every time you want to use** the package, you need to load it into R using the `library()` command. The `library()` command should be added to your R Script.
+**Every time you want to use the package**, you need to load it into R using the `library()` command. The `library()` command should be added to your R Script.
 
 ``` r
 # install package 
@@ -44,7 +44,7 @@ library(tidyverse)
 
 You can also install packages manually from RStudio by clicking the grey install button (top left of image) and start typing the name of the package in the search box that pops up.
 
-Once you have installed a packges, you can check if it's loaded or not visually by using the search box at the top right of the picture. See how *tidyverse* has a check mark next to it? That means is loaded (we successfully ran the `library(tidyverse)` command)! See how *rlang* does not have a check mark next to it, that means it's installed, but not loaded, so we can't use any of the commands in *rlang* right now, but we can use the commands in *tidyverse*.
+Once you have installed a packges, you can check if it's loaded or not visually by using the search box at the top right of the picture. See how *tidyverse* has a check mark next to it? That means is tidyverse loaded (we successfully ran the `library(tidyverse)` command)! See how *rlang* does not have a check mark next to it, that means it's installed, but not loaded, so we can't use any of the commands in *rlang* right now, but we can use the commands in *tidyverse*.
 
 What if you search for a package name and it's not there? Check the spelling and if it's correct, that means the package is not installed.
 
