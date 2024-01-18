@@ -146,14 +146,17 @@ Today, we will go over some of the built in functions that R has for simple data
 
 Run the following line and look for the output in the console
 
+Here, we are telling R, take the KelpWetWeight column in the kelp_dataset and calculate the mean (of the KelpWetWeight column). 
 ``` r
 mean(kelp_dataset$KelpWetWeight)
 # there is also sum(), median(), min(), max(), and a bunch of other similar functions
+# here is a webpage with all the base R functions https://rdrr.io/r/  
 ```
+Right above, we put a URL link in a comment. This is a very good habit to have because you might find a page that has answers you are looking for or explains why you did something a particular way. The best spot to store those resources is right next to the relevant code! 
 
 ### Run a correlation test
 
-Lets see if thalus length and weight are correlated. The output for this will also be int he console.
+Lets see if thallus length and weight are correlated. The output for this will also be in the console.
 
 ``` r
 cor.test(kelp_dataset$KelpWetWeight, kelp_dataset$KelpThallusLength)
