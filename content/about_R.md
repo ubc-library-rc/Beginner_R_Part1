@@ -134,7 +134,7 @@ summary(kelp_dataset)
 
 Data that are not formatted properly are the source of many error messages in R. We are not going to go over data formatting today because we have many other workshops to do that.
 
-Overall, in this section, you would clean up your data by removing parts of it you don;t want to analyze, change the variable types, [join many datasets together](https://ubc-library-rc.github.io/relational-data-r/), or [manipulate your data](https://github.com/ubc-library-rc/intro_to_tidyverse) in various other ways.
+Overall, in this section, you would clean up your data by removing parts of it you don't want to analyze, change the variable types, [join many datasets together](https://ubc-library-rc.github.io/relational-data-r/), or [manipulate your data](https://github.com/ubc-library-rc/intro_to_tidyverse) in various other ways.
 
 ## Data Analysis
 
