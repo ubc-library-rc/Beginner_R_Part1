@@ -8,8 +8,11 @@ has_toc: false
 ### The R coding language is similar to English
 
 Code is read from left to right and from the top of the script (line 1) to the bottom of the script.
+
 <p style="margin-left: 25px;">
-<i>Note</i>: An R script is a document where you write code that you want saved. This is where you should do your data analysis. When people share R code, they send each other R script files. 
+
+<i>Note</i>: An R script is a document where you write code that you want saved. This is where you should do your data analysis. When people share R code, they send each other R script files.
+
 </p>
 
 This means, that your code needs to be written in the correct order to be able to run it without errors
@@ -146,13 +149,15 @@ Today, we will go over some of the built in functions that R has for simple data
 
 Run the following line and look for the output in the console
 
-Here, we are telling R, take the KelpWetWeight column in the kelp_dataset and calculate the mean (of the KelpWetWeight column). 
+Here, we are telling R, take the KelpWetWeight column in the kelp_dataset and calculate the mean (of the KelpWetWeight column).
+
 ``` r
 mean(kelp_dataset$KelpWetWeight)
 # there is also sum(), median(), min(), max(), and a bunch of other similar functions
 # here is a webpage with all the base R functions https://rdrr.io/r/  
 ```
-Right above, we put a URL link in a comment. This is a very good habit to have, because you might find a webpage that has answers you are looking for or explains why you did something a particular way. The best spot to store those resources is right next to the relevant code! 
+
+Right above, we put a URL link in a comment. This is a very good habit to have, because you might find a webpage that has answers you are looking for or explains why you did something a particular way. The best spot to store those resources is right next to the relevant code!
 
 ### Run a correlation test
 
