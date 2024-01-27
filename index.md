@@ -3,10 +3,12 @@ layout: default
 title: Outline
 nav_order: 1
 ---
+<strong>This workshop assumes no previous coding experience</strong>.
 
 If you have never opened R, do not know what R packages are, do not know how to read files into R, this workshop is for you!
 
-If your expertise is a bit higher than what is described above but you are still very new to R, check out the [Beginner R Part 2 workshop](https://ubc-library-rc.github.io/Beginner_R_Part2/) we will be offering soon!
+If your expertise is a bit higher than what is described above but you are still very new to R, check out the [Beginner R Part 2 workshop](https://ubc-library-rc.github.io/Beginner_R_Part2/)!
+
 
 ## Learning objectives
 
