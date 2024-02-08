@@ -9,10 +9,12 @@ We went over a lot of material during this workshop! Below is the code that was 
 
 ``` r
 ### SET UP THE CODE ####
-# install package 
+# install package.
+  # This only needs to be run once on your compter per package, ever. This means you don't need to run this ever again after todays workshop.
 install.packages("tidyverse")
 
-# load package
+# load package (telling R you need this package).
+  # This needs to be run every single time you open a new R session where you will need to use the tidyverse package.
 library(tidyverse)
 
 # set working directory
