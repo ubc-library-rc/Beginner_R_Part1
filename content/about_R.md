@@ -108,7 +108,8 @@ You can do this by typing the correct read file command into your your script or
 ``` r
 # read in the .csv file
 kelp_dataset=read.csv("kelp_dataset.csv")
-# note, + and <- are the same in this case. 
+# note, = and <- are the same. They are both used to assign variables.
+# The == is different and means exactly equal to, which is useful to subset data. 
 ```
 
 Now we see that the dataset is in our Environment, so it's loaded properly.
