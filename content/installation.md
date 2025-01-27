@@ -7,13 +7,13 @@ has_toc: false
 
 ### 1. Install R - the computing software
 
-Go to <https://mirror.csclub.uwaterloo.ca/CRAN/ target="_blank"> and download the right version for your operating system
+Go to <https://mirror.csclub.uwaterloo.ca/CRAN/> and download the right version for your operating system
 
 ![](images/installR.png)
 
 ### 2. Install RStudio - the graphical interface that we will be working in today
 
-Go to <https://posit.co/download/rstudio-desktop/ target="_blank"> and scroll to find the right version for your operating system
+Go to <https://posit.co/download/rstudio-desktop/> and scroll to find the right version for your operating system
 
 ![](images/install_RStudio.png)
 
